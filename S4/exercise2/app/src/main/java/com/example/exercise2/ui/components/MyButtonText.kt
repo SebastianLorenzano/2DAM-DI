@@ -11,11 +11,9 @@ import androidx.compose.runtime.setValue
 
 @Composable
 fun MyButtonText() {
-    var buttonPressed by remember { mutableStateOf(false) }
-    var button = Button(onClick = {buttonPressed=!buttonPressed}) {
-        if (!buttonPressed)
-            Text(text = "Pulsa Aquí")
-        else
-            Text(text = "Botón Pulsado")
+    var myText by remember { mutableStateOf("Pulsa Aquí") }
+
+    Button(onClick = {myText = "Botón pulsado"}) {
+        Text(text = myText)
     }
 }

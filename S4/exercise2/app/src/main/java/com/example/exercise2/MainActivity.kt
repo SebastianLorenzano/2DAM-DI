@@ -18,7 +18,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.exercise2.ui.components.MyButtonColor
 import com.example.exercise2.ui.components.MyButtonText
 import com.example.exercise2.ui.theme.Exercise2Theme
 
@@ -41,7 +43,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    MyButtonText()
+    MyButtonColor("Pepe estuvo aquí", Color.LightGray)
 
     }
 
