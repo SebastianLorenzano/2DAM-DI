@@ -20,14 +20,13 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             S4Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MyLogin(modifier = Modifier.padding(innerPadding)
-                    )
+
+
                 }
             }
         }
     }
-}
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {

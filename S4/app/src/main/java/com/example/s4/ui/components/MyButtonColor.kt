@@ -16,8 +16,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun MyButtonColor(string: String, color: Color) {
-    var myText by remember { mutableStateOf("Pulsa Aquí") }
+fun MyButtonColor(text1: String, text2: String, color: Color) {
+    var myText by remember { mutableStateOf(text1) }
     var myBackgroundColor by remember { mutableStateOf(Color.DarkGray) }
     var myColor by remember { mutableStateOf(Color.White) }
     var myBorder by remember { mutableStateOf(BorderStroke(1.dp, Color.Black)) }
@@ -28,7 +28,7 @@ fun MyButtonColor(string: String, color: Color) {
         myColor = Color.Black
         myBorder = BorderStroke(3.dp, Color.Black)
         myShape = RoundedCornerShape(4.dp)
-        myText = string },
+        myText = text2 },
         colors = ButtonDefaults.buttonColors(
             contentColor = myColor,
             containerColor = myBackgroundColor),
