@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.exercises.components.MyLogin
+import com.example.s4.ui.components.MyScreen
 import com.example.s4.ui.theme.S4Theme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            S4Theme {
+            S4Theme { MyScreen()
 
 
                 }
