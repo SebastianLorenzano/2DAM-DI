@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/introductionQt/">
+    <file alias="Main.qml">C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml</file>
+    <file alias="MyComponent.qml">C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml</file>
+  </qresource>
+</RCC>
+
