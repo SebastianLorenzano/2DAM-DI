@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2
+-cmake-output
+-output-file
+C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/appweek2_build.cmake
+-importPath
+C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2
+-importPath
+C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.7.2/mingw_64/./qml
+-qrcFiles
+C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_week2.qrc
+C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appweek2_raw_qml_0.qrc

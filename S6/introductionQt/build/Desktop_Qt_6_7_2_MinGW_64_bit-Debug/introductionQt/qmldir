@@ -3,4 +3,6 @@ typeinfo appintroductionQt.qmltypes
 prefer :/qt/qml/introductionQt/
 Main 1.0 Main.qml
 MyComponent 1.0 MyComponent.qml
+Login 1.0 Login.qml
+Main2 1.0 Main2.qml
 

@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introduct
 #############################################
 # Order-only phony target for appintroductionQt
 
-build cmake_object_order_depends_target_appintroductionQt: phony || .qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp .qt/rcc/qrc_qmake_introductionQt.cpp .rcc/qmlcache/appintroductionQt_Main_qml.cpp .rcc/qmlcache/appintroductionQt_MyComponent_qml.cpp .rcc/qmlcache/appintroductionQt_qmlcache_loader.cpp appintroductionQt_autogen appintroductionQt_autogen/mocs_compilation.cpp appintroductionQt_autogen/timestamp appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling appintroductionqt_qmltyperegistrations.cpp introductionQt/appintroductionQt.qmltypes meta_types/appintroductionQt_json_file_list.txt meta_types/appintroductionQt_json_file_list.txt.timestamp meta_types/qt6appintroductionqt_debug_metatypes.json meta_types/qt6appintroductionqt_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appintroductionQt: phony || .qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp .qt/rcc/qrc_qmake_introductionQt.cpp .rcc/qmlcache/appintroductionQt_Login_qml.cpp .rcc/qmlcache/appintroductionQt_Main2_qml.cpp .rcc/qmlcache/appintroductionQt_Main_qml.cpp .rcc/qmlcache/appintroductionQt_MyComponent_qml.cpp .rcc/qmlcache/appintroductionQt_qmlcache_loader.cpp appintroductionQt_autogen appintroductionQt_autogen/mocs_compilation.cpp appintroductionQt_autogen/timestamp appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling appintroductionqt_qmltyperegistrations.cpp introductionQt/appintroductionQt.qmltypes meta_types/appintroductionQt_json_file_list.txt meta_types/appintroductionQt_json_file_list.txt.timestamp meta_types/qt6appintroductionqt_debug_metatypes.json meta_types/qt6appintroductionqt_debug_metatypes.json.gen
 
 build CMakeFiles/appintroductionQt.dir/appintroductionQt_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appintroductionQt_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appintroductionQt_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appintroductionQt
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -105,6 +105,22 @@ build CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
   OBJECT_DIR = CMakeFiles\appintroductionQt.dir
   OBJECT_FILE_DIR = CMakeFiles\appintroductionQt.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache
 
+build CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Login_qml.cpp.obj: CXX_COMPILER__appintroductionQt_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Login_qml.cpp || cmake_object_order_depends_target_appintroductionQt
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appintroductionQt.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appintroductionQt_Login_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appintroductionQt_autogen/include -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appintroductionQt.dir
+  OBJECT_FILE_DIR = CMakeFiles\appintroductionQt.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache
+
+build CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Main2_qml.cpp.obj: CXX_COMPILER__appintroductionQt_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Main2_qml.cpp || cmake_object_order_depends_target_appintroductionQt
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appintroductionQt.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appintroductionQt_Main2_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appintroductionQt_autogen/include -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appintroductionQt.dir
+  OBJECT_FILE_DIR = CMakeFiles\appintroductionQt.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache
+
 build CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp.obj: CXX_COMPILER__appintroductionQt_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp || cmake_object_order_depends_target_appintroductionQt
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appintroductionQt.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\rcc\qrc_appintroductionQt_raw_qml_0.cpp.obj.d
@@ -121,7 +137,7 @@ build CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
 #############################################
 # Link the executable appintroductionQt.exe
 
-build appintroductionQt.exe: CXX_EXECUTABLE_LINKER__appintroductionQt_Debug CMakeFiles/appintroductionQt.dir/appintroductionQt_autogen/mocs_compilation.cpp.obj CMakeFiles/appintroductionQt.dir/main.cpp.obj CMakeFiles/appintroductionQt.dir/appintroductionqt_qmltyperegistrations.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_introductionQt.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_qmlcache_loader.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Main_qml.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_MyComponent_qml.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || appintroductionQt_autogen appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling
+build appintroductionQt.exe: CXX_EXECUTABLE_LINKER__appintroductionQt_Debug CMakeFiles/appintroductionQt.dir/appintroductionQt_autogen/mocs_compilation.cpp.obj CMakeFiles/appintroductionQt.dir/main.cpp.obj CMakeFiles/appintroductionQt.dir/appintroductionqt_qmltyperegistrations.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_introductionQt.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_qmlcache_loader.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Main_qml.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_MyComponent_qml.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Login_qml.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Main2_qml.cpp.obj CMakeFiles/appintroductionQt.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || appintroductionQt_autogen appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a  C:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a  C:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Network.a  -lws2_32  C:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +200,7 @@ build all_qmllint_module: phony appintroductionQt_qmllint_module
 #############################################
 # Utility command for appintroductionQt_tooling
 
-build appintroductionQt_tooling: phony introductionQt/Main.qml introductionQt/MyComponent.qml
+build appintroductionQt_tooling: phony introductionQt/Main.qml introductionQt/MyComponent.qml introductionQt/Login.qml introductionQt/Main2.qml
 
 
 #############################################
@@ -326,9 +342,27 @@ build .rcc/qmlcache/appintroductionQt_MyComponent_qml.cpp | ${cmake_ninja_workdi
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appintroductionQt_Login_qml.cpp
+
+build .rcc/qmlcache/appintroductionQt_Login_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appintroductionQt_Login_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml .qt/rcc/qmake_introductionQt.qrc .qt/rcc/appintroductionQt_raw_qml_0.qrc introductionQt/appintroductionQt.qmltypes introductionQt/qmldir || appintroductionQt_autogen appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/introductionQt/Login.qml -I C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug -I C:/Qt/6.7.2/mingw_64/./qml -i C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/introductionQt/qmldir --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_introductionQt.qrc --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appintroductionQt_raw_qml_0.qrc -o C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Login_qml.cpp C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml"
+  DESC = Generating .rcc/qmlcache/appintroductionQt_Login_qml.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appintroductionQt_Main2_qml.cpp
+
+build .rcc/qmlcache/appintroductionQt_Main2_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appintroductionQt_Main2_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml .qt/rcc/qmake_introductionQt.qrc .qt/rcc/appintroductionQt_raw_qml_0.qrc introductionQt/appintroductionQt.qmltypes introductionQt/qmldir || appintroductionQt_autogen appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/introductionQt/Main2.qml -I C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug -I C:/Qt/6.7.2/mingw_64/./qml -i C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/introductionQt/qmldir --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_introductionQt.qrc --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appintroductionQt_raw_qml_0.qrc -o C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Main2_qml.cpp C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml"
+  DESC = Generating .rcc/qmlcache/appintroductionQt_Main2_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .qt\rcc\qrc_appintroductionQt_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml .qt/rcc/appintroductionQt_raw_qml_0.qrc C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || appintroductionQt_autogen appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling
+build .qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml .qt/rcc/appintroductionQt_raw_qml_0.qrc C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || appintroductionQt_autogen appintroductionQt_autogen_timestamp_deps appintroductionQt_qmlimportscan appintroductionQt_tooling
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\6.7.2\mingw_64\.\bin\rcc.exe --output C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appintroductionQt_raw_qml_0.cpp --name appintroductionQt_raw_qml_0 C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appintroductionQt_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appintroductionQt_raw_qml_0
   restat = 1
@@ -363,21 +397,21 @@ build CMakeFiles/appintroductionQt_qmltyperegistration | ${cmake_ninja_workdir}C
 #############################################
 # Custom command for CMakeFiles\appintroductionQt_qmllint
 
-build CMakeFiles/appintroductionQt_qmllint | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmllint: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml .rcc/qmllint/appintroductionQt.rsp || all_qmltyperegistrations appintroductionQt_qmltyperegistration
+build CMakeFiles/appintroductionQt_qmllint | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmllint: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml .rcc/qmllint/appintroductionQt.rsp || all_qmltyperegistrations appintroductionQt_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/bin/qmllint.exe @C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmllint/appintroductionQt.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appintroductionQt_qmllint_json
 
-build CMakeFiles/appintroductionQt_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml .rcc/qmllint/appintroductionQt_json.rsp || all_qmltyperegistrations appintroductionQt_qmltyperegistration
+build CMakeFiles/appintroductionQt_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml .rcc/qmllint/appintroductionQt_json.rsp || all_qmltyperegistrations appintroductionQt_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/bin/qmllint.exe @C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmllint/appintroductionQt_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appintroductionQt_qmllint_module
 
-build CMakeFiles/appintroductionQt_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml .rcc/qmllint/appintroductionQt_module.rsp || all_qmltyperegistrations appintroductionQt_qmltyperegistration
+build CMakeFiles/appintroductionQt_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml .rcc/qmllint/appintroductionQt_module.rsp || all_qmltyperegistrations appintroductionQt_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/bin/qmllint.exe @C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmllint/appintroductionQt_module.rsp"
 
 
@@ -400,6 +434,24 @@ build introductionQt/MyComponent.qml | ${cmake_ninja_workdir}introductionQt/MyCo
 
 
 #############################################
+# Custom command for introductionQt\Login.qml
+
+build introductionQt/Login.qml | ${cmake_ninja_workdir}introductionQt/Login.qml: CUSTOM_COMMAND C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/introductionQt/Login.qml"
+  DESC = Copying Login.qml to C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/introductionQt/Login.qml
+  restat = 1
+
+
+#############################################
+# Custom command for introductionQt\Main2.qml
+
+build introductionQt/Main2.qml | ${cmake_ninja_workdir}introductionQt/Main2.qml: CUSTOM_COMMAND C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/introductionQt/Main2.qml"
+  DESC = Copying Main2.qml to C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/introductionQt/Main2.qml
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles\appintroductionQt_qmlimportscan
 
 build CMakeFiles/appintroductionQt_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appintroductionQt_qmlimportscan: phony .qt/qml_imports/appintroductionQt_build.cmake
@@ -408,7 +460,7 @@ build CMakeFiles/appintroductionQt_qmlimportscan | ${cmake_ninja_workdir}CMakeFi
 #############################################
 # Custom command for .qt\qml_imports\appintroductionQt_build.cmake
 
-build .qt/qml_imports/appintroductionQt_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appintroductionQt_build.cmake: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_introductionQt.qrc .qt/rcc/appintroductionQt_raw_qml_0.qrc C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml
+build .qt/qml_imports/appintroductionQt_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appintroductionQt_build.cmake: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_introductionQt.qrc .qt/rcc/appintroductionQt_raw_qml_0.qrc C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/MyComponent.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Login.qml C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/Main2.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\introductionQt\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlimportscanner.exe @C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/introductionQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/appintroductionQt_build.rsp"
   DESC = Running qmlimportscanner for appintroductionQt
   restat = 1
