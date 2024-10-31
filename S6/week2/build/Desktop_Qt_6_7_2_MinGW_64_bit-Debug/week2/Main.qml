@@ -1,4 +1,6 @@
 import QtQuick
+import QtQuick.Controls 2.15
+import QtQuick.Layouts 2.15
 
 Window {
     id: window
@@ -7,27 +9,61 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    Rectangle {
-        id: rectangle
-        x: 73
-        width: 130
-        color: "#d52828"
-        anchors.top: parent.top
-        anchors.bottom: parent.verticalCenter
-        anchors.topMargin: 0
-        anchors.bottomMargin: 110
-    }
+    ColumnLayout {
+        id: column
+        x: 0
+        y: 0
+        width: 214
+        height: fillHeight
+        spacing: 10
 
-    Rectangle {
-        id: rectangle1
-        color: "#1365ff"
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.bottom: parent.bottom
-        anchors.leftMargin: 440
-        anchors.rightMargin: 70
-        anchors.topMargin: 0
-        anchors.bottomMargin: 350
+        Button {
+            id: button
+            width: 125
+            text: qsTr("Elementos")
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.leftMargin: -107
+            checkable: true
+            background: Rectangle {
+                border.color: black
+                border.width: 1
+            }
+        }
+        Button {
+            id: button1
+            width: 125
+            text: qsTr("Edición")
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.rightMargin: 2
+            checkable: true
+            background: Rectangle {
+                border.color: black
+                border.width: 1
+            }
+        }
+        Button {
+            id: button2
+            width: 125
+            text: qsTr("Usuarios")
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.leftMargin: 0
+            checkable: true
+            background: Rectangle {
+                border.color: black
+                border.width: 1
+            }
+        }
+        Button {
+            id: button3
+            width: 125
+            text: qsTr("Configuración")
+            anchors.horizontalCenter: parent.horizontalCenter
+            checkable: true
+            background: Rectangle {
+                border.color: black
+                border.width: 1
+            }
+        }
     }
 }
+

@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/week2/">
     <file alias="Main.qml">C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Main.qml</file>
+    <file alias="view.qml">C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/view.qml</file>
   </qresource>
 </RCC>
 
