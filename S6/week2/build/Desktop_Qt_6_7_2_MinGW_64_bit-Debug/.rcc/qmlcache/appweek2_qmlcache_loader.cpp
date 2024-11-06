@@ -12,7 +12,28 @@ namespace _qt_qml_week2_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_week2_view_qml { 
+namespace _qt_qml_week2_MyButton_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_week2_Card_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_week2_View_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_week2_MyElement_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -34,7 +55,10 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/week2/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_week2_Main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/week2/view.qml"), &QmlCacheGeneratedCode::_qt_qml_week2_view_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/week2/MyButton.qml"), &QmlCacheGeneratedCode::_qt_qml_week2_MyButton_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/week2/Card.qml"), &QmlCacheGeneratedCode::_qt_qml_week2_Card_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/week2/View.qml"), &QmlCacheGeneratedCode::_qt_qml_week2_View_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/week2/MyElement.qml"), &QmlCacheGeneratedCode::_qt_qml_week2_MyElement_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

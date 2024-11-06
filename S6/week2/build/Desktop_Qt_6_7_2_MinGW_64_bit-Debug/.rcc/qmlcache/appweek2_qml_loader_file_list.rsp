@@ -3,4 +3,7 @@ C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_Min
 --resource
 C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appweek2_raw_qml_0.qrc
 /qt/qml/week2/Main.qml
-/qt/qml/week2/view.qml
+/qt/qml/week2/MyButton.qml
+/qt/qml/week2/Card.qml
+/qt/qml/week2/View.qml
+/qt/qml/week2/MyElement.qml
