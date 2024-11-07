@@ -98,7 +98,9 @@ Window {
                     y: 440
                     text: "+"
                     anchors.bottom: parent.bottom
+                    anchors.right: parent.right
                     anchors.bottomMargin: 8
+                    anchors.rightMargin: 8
                 }
             }
         }
