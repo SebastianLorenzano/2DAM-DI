@@ -1,0 +1,7 @@
+module untitled
+typeinfo appuntitled.qmltypes
+prefer :/qt/qml/untitled/
+Main 1.0 Main.qml
+View 1.0 View.qml
+Form 1.0 Form.qml
+
