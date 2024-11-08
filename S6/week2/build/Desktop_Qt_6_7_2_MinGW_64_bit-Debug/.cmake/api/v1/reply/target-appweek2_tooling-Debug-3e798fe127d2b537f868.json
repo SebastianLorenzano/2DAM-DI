@@ -105,7 +105,7 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/card.qml",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/Card.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -135,7 +135,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/card.qml.rule",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/Card.qml.rule",
 			"sourceGroupIndex" : 1
 		},
 		{

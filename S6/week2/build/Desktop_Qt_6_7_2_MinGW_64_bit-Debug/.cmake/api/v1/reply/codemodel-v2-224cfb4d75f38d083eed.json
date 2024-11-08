@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-3fbd1fa06f7ef8d6c1e9.json",
+					"jsonFile" : "directory-.-Debug-55bff352487cad80e023.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -92,7 +92,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appweek2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appweek2-Debug-e0a561bbbb971f0f33cf.json",
+					"jsonFile" : "target-appweek2-Debug-5c0c16e02c781644d93b.json",
 					"name" : "appweek2",
 					"projectIndex" : 0
 				},
@@ -148,7 +148,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appweek2_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appweek2_tooling-Debug-687a4c44c92dc3d13ee3.json",
+					"jsonFile" : "target-appweek2_tooling-Debug-3e798fe127d2b537f868.json",
 					"name" : "appweek2_tooling",
 					"projectIndex" : 0
 				}

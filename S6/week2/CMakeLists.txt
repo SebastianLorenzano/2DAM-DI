@@ -21,6 +21,7 @@ qt_add_qml_module(appweek2
         QML_FILES Card.qml
         QML_FILES View.qml
         QML_FILES MyElement.qml
+        QML_FILES
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

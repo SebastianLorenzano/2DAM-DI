@@ -105,13 +105,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 42,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 37,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -1058,15 +1058,15 @@
 			"id" : "appweek2_tooling::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "appweek2_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 77,
 			"id" : "appweek2_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "appweek2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appweek2_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appweek2::@6890427a1f51a3e7e1df",
@@ -1348,7 +1348,7 @@
 			"backtrace" : 96,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -1360,7 +1360,7 @@
 			"backtrace" : 98,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -1445,13 +1445,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp.rule",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp.rule",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

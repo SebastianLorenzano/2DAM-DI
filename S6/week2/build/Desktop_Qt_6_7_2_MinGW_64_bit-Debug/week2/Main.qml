@@ -8,6 +8,31 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+
+    ListModel {
+        id: usersModel
+        ListElement {
+            name: "Tarea"
+            description: "Realizar tareas de programación"
+            priority: 1
+            }
+        ListElement {
+            name: "Tarea"
+            description: "Realizar tareas de programación"
+            priority: 1
+            }
+        ListElement {
+            name: "Tarea"
+            description: "Realizar tareas de programación"
+            priority: 1
+            }
+        ListElement {
+            name: "Tarea"
+            description: "Realizar tareas de programación"
+            priority: 1
+            }
+    }
+
     ColumnLayout {
         id: column
         width: 120
@@ -74,23 +99,23 @@ Window {
                 anchors.verticalCenter: column.verticalCenter
 
 
-                GridLayout {
+                GridView {
+                    id: gridView
+                    model: usersModel
                     anchors.leftMargin: 10
                     anchors.rightMargin: 10
                     anchors.verticalCenter: column.verticalCenter
                     anchors.fill: parent
-                    rowSpacing: 25
-                    columnSpacing: 15
                     anchors.top: parent.top
                     anchors.topMargin: 81  // Adds space between title and grid
-                    columns: 3
-                    rows: 3
-                    Repeater {
-                        model: 7
-                            Card {
-
-                            }
+                    cellHeight: 150
+                    cellWidth: 250
+                    delegate:
+                        Card {
+                        cardTitle: name
+                        cardBody: description
                     }
+
                 }
                 RoundButton {
                     id: roundButton

@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/bui
 #############################################
 # Order-only phony target for appweek2
 
-build cmake_object_order_depends_target_appweek2: phony || .qt/rcc/qrc_appweek2_raw_qml_0.cpp .qt/rcc/qrc_qmake_week2.cpp .rcc/qmlcache/appweek2_Main_qml.cpp .rcc/qmlcache/appweek2_MyButton_qml.cpp .rcc/qmlcache/appweek2_MyElement_qml.cpp .rcc/qmlcache/appweek2_card_qml.cpp .rcc/qmlcache/appweek2_qmlcache_loader.cpp .rcc/qmlcache/appweek2_view_qml.cpp appweek2_autogen appweek2_autogen/mocs_compilation.cpp appweek2_autogen/timestamp appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_qmltyperegistrations.cpp appweek2_tooling meta_types/appweek2_json_file_list.txt meta_types/appweek2_json_file_list.txt.timestamp meta_types/qt6appweek2_debug_metatypes.json meta_types/qt6appweek2_debug_metatypes.json.gen week2/appweek2.qmltypes
+build cmake_object_order_depends_target_appweek2: phony || .qt/rcc/qrc_appweek2_raw_qml_0.cpp .qt/rcc/qrc_qmake_week2.cpp .rcc/qmlcache/appweek2_Card_qml.cpp .rcc/qmlcache/appweek2_Main_qml.cpp .rcc/qmlcache/appweek2_MyButton_qml.cpp .rcc/qmlcache/appweek2_MyElement_qml.cpp .rcc/qmlcache/appweek2_View_qml.cpp .rcc/qmlcache/appweek2_qmlcache_loader.cpp appweek2_autogen appweek2_autogen/mocs_compilation.cpp appweek2_autogen/timestamp appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_qmltyperegistrations.cpp appweek2_tooling meta_types/appweek2_json_file_list.txt meta_types/appweek2_json_file_list.txt.timestamp meta_types/qt6appweek2_debug_metatypes.json meta_types/qt6appweek2_debug_metatypes.json.gen week2/appweek2.qmltypes
 
 build CMakeFiles/appweek2.dir/appweek2_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appweek2_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appweek2_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appweek2
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -105,17 +105,17 @@ build CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qml
   OBJECT_DIR = CMakeFiles\appweek2.dir
   OBJECT_FILE_DIR = CMakeFiles\appweek2.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache
 
-build CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp.obj: CXX_COMPILER__appweek2_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp || cmake_object_order_depends_target_appweek2
+build CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp.obj: CXX_COMPILER__appweek2_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp || cmake_object_order_depends_target_appweek2
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\appweek2.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appweek2_card_qml.cpp.obj.d
+  DEP_FILE = CMakeFiles\appweek2.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appweek2_Card_qml.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appweek2_autogen/include -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles\appweek2.dir
   OBJECT_FILE_DIR = CMakeFiles\appweek2.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache
 
-build CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp.obj: CXX_COMPILER__appweek2_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp || cmake_object_order_depends_target_appweek2
+build CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp.obj: CXX_COMPILER__appweek2_unscanned_Debug C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp || cmake_object_order_depends_target_appweek2
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\appweek2.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appweek2_view_qml.cpp.obj.d
+  DEP_FILE = CMakeFiles\appweek2.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appweek2_View_qml.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appweek2_autogen/include -IC:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles\appweek2.dir
@@ -145,7 +145,7 @@ build CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/
 #############################################
 # Link the executable appweek2.exe
 
-build appweek2.exe: CXX_EXECUTABLE_LINKER__appweek2_Debug CMakeFiles/appweek2.dir/appweek2_autogen/mocs_compilation.cpp.obj CMakeFiles/appweek2.dir/main.cpp.obj CMakeFiles/appweek2.dir/appweek2_qmltyperegistrations.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_week2.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_qmlcache_loader.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Main_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyButton_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyElement_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appweek2_raw_qml_0.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || appweek2_autogen appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_tooling
+build appweek2.exe: CXX_EXECUTABLE_LINKER__appweek2_Debug CMakeFiles/appweek2.dir/appweek2_autogen/mocs_compilation.cpp.obj CMakeFiles/appweek2.dir/main.cpp.obj CMakeFiles/appweek2.dir/appweek2_qmltyperegistrations.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_week2.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_qmlcache_loader.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Main_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyButton_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyElement_qml.cpp.obj CMakeFiles/appweek2.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appweek2_raw_qml_0.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || appweek2_autogen appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a  C:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a  C:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Network.a  -lws2_32  C:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -208,7 +208,7 @@ build all_qmllint_module: phony appweek2_qmllint_module
 #############################################
 # Utility command for appweek2_tooling
 
-build appweek2_tooling: phony week2/Main.qml week2/MyButton.qml week2/card.qml week2/View.qml week2/MyElement.qml
+build appweek2_tooling: phony week2/Main.qml week2/MyButton.qml week2/Card.qml week2/View.qml week2/MyElement.qml
 
 
 #############################################
@@ -350,20 +350,20 @@ build .rcc/qmlcache/appweek2_MyButton_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlca
 
 
 #############################################
-# Custom command for .rcc\qmlcache\appweek2_card_qml.cpp
+# Custom command for .rcc\qmlcache\appweek2_Card_qml.cpp
 
-build .rcc/qmlcache/appweek2_card_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appweek2_card_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Card.qml .qt/rcc/qmake_week2.qrc .qt/rcc/appweek2_raw_qml_0.qrc week2/appweek2.qmltypes week2/qmldir || appweek2_autogen appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_tooling
+build .rcc/qmlcache/appweek2_Card_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appweek2_Card_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Card.qml .qt/rcc/qmake_week2.qrc .qt/rcc/appweek2_raw_qml_0.qrc week2/appweek2.qmltypes week2/qmldir || appweek2_autogen appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_tooling
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\week2\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\week2\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/week2/Card.qml -I C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug -I C:/Qt/6.7.2/mingw_64/./qml -i C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/qmldir --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_week2.qrc --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appweek2_raw_qml_0.qrc -o C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Card.qml"
-  DESC = Generating .rcc/qmlcache/appweek2_card_qml.cpp
+  DESC = Generating .rcc/qmlcache/appweek2_Card_qml.cpp
   restat = 1
 
 
 #############################################
-# Custom command for .rcc\qmlcache\appweek2_view_qml.cpp
+# Custom command for .rcc\qmlcache\appweek2_View_qml.cpp
 
-build .rcc/qmlcache/appweek2_view_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appweek2_view_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/View.qml .qt/rcc/qmake_week2.qrc .qt/rcc/appweek2_raw_qml_0.qrc week2/appweek2.qmltypes week2/qmldir || appweek2_autogen appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_tooling
+build .rcc/qmlcache/appweek2_View_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appweek2_View_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/View.qml .qt/rcc/qmake_week2.qrc .qt/rcc/appweek2_raw_qml_0.qrc week2/appweek2.qmltypes week2/qmldir || appweek2_autogen appweek2_autogen_timestamp_deps appweek2_qmlimportscan appweek2_tooling
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\week2\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache && C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\week2\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/week2/View.qml -I C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug -I C:/Qt/6.7.2/mingw_64/./qml -i C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/qmldir --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_week2.qrc --resource C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appweek2_raw_qml_0.qrc -o C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/View.qml"
-  DESC = Generating .rcc/qmlcache/appweek2_view_qml.cpp
+  DESC = Generating .rcc/qmlcache/appweek2_View_qml.cpp
   restat = 1
 
 
@@ -451,9 +451,9 @@ build week2/MyButton.qml | ${cmake_ninja_workdir}week2/MyButton.qml: CUSTOM_COMM
 
 
 #############################################
-# Custom command for week2\card.qml
+# Custom command for week2\Card.qml
 
-build week2/card.qml | ${cmake_ninja_workdir}week2/card.qml: CUSTOM_COMMAND C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Card.qml
+build week2/Card.qml | ${cmake_ninja_workdir}week2/Card.qml: CUSTOM_COMMAND C$:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Card.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\seblor3\Desktop\Programming\2DAM-DI\S6\week2 && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/Card.qml C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/Card.qml"
   DESC = Copying Card.qml to C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/week2/Card.qml
   restat = 1

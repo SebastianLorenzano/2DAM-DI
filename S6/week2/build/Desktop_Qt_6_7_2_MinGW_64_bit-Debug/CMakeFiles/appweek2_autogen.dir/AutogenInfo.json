@@ -710,12 +710,12 @@
 	[
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appweek2_raw_qml_0.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_week2.cpp",
+		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Main_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyButton_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyElement_qml.cpp",
-		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp",
+		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_qmlcache_loader.cpp",
-		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appweek2_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -740,12 +740,12 @@
 	[
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appweek2_raw_qml_0.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_week2.cpp",
+		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Card_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_Main_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyButton_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_MyElement_qml.cpp",
-		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_card_qml.cpp",
+		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_View_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_qmlcache_loader.cpp",
-		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appweek2_view_qml.cpp",
 		"C:/Users/seblor3/Desktop/Programming/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appweek2_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],
