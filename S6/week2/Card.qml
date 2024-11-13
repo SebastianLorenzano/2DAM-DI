@@ -6,6 +6,7 @@ Rectangle {
     id: card
     property string cardTitle: "Tarea"
     property string cardBody: "Realizar tareas de programación"
+    property int priority: 1
     width: 200
     height: 100
     Layout.fillWidth: true
@@ -19,6 +20,8 @@ Rectangle {
     anchors.horizontalCenter: card.horizontalCenter
     color: "#d7d7d7";
     radius: 25
+    signal cardClicked()
+
 
     Column {
         spacing: 5
@@ -39,6 +42,7 @@ Rectangle {
             height: 40
             anchors.bottom: mainRectangle.top
             color: "black"
+            elide: Text.ElideRight
         }
 
         Rectangle {
@@ -53,15 +57,18 @@ Rectangle {
                 Button {
                     text: "Modificar"
                     anchors.verticalCenter: parent.verticalCenter
+                    layer.enabled: false
+                    checkable: false
                     height: 23
+                    onClicked: cardClicked()
+
                     background: Rectangle {
                         width: 70
                         color: "#d7d7d7"
                         border.color: black
                         border.width: 1
+                        }
                     }
-
-                }
 
                 Button {
                     text: "Eliminar"

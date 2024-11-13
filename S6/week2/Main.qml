@@ -83,6 +83,8 @@ Window {
         Layout.fillWidth: true
         Layout.fillHeight: true
 
+
+
         // View 0
         Item {
 
@@ -97,7 +99,7 @@ Window {
             View {
                 titleText: b1.text
                 anchors.verticalCenter: column.verticalCenter
-
+                signal itemSelected(string name, string description, int priority)
 
                 GridView {
                     id: gridView
@@ -114,7 +116,9 @@ Window {
                         Card {
                         cardTitle: name
                         cardBody: description
+                        // onCardClicked: ItemSelected(card.cardTitle, card.cardBody, card.priority)  Hacer mas tarde
                     }
+
 
                 }
                 RoundButton {
@@ -129,6 +133,7 @@ Window {
                 }
             }
         }
+
 
    // View 2
         Item {
@@ -149,7 +154,7 @@ Window {
             View {
                 titleText: b4.text
             }
-        }
+        }   
     }
 }
 
