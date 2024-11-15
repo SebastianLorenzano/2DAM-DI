@@ -73,15 +73,19 @@ Window {
         id: stackLayout
         anchors.verticalCenter: column.verticalCenter
         anchors.left: column.right
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.bottom: parent.bottom
+        anchors.right: column.left
+        anchors.top: column.bottom
+        anchors.bottom: column.top
         anchors.leftMargin: 6
-        anchors.rightMargin: 0
-        anchors.topMargin: 0
-        anchors.bottomMargin: 0
+        anchors.rightMargin: -640
+        anchors.topMargin: -480
+        anchors.bottomMargin: -480
+        anchors.horizontalCenter: column.horizontalCenter
         Layout.fillWidth: true
         Layout.fillHeight: true
+        property string currentCardName: ""
+        property string currentCardDescription: ""
+        property int currentCardPriority: 0
 
         // View 0
         Item {
@@ -95,10 +99,9 @@ Window {
         // View 1
         Item {
             View {
+                id: view1
                 titleText: b1.text
                 anchors.verticalCenter: column.verticalCenter
-
-
                 GridView {
                     id: gridView
                     model: usersModel
@@ -114,9 +117,21 @@ Window {
                         Card {
                         cardTitle: name
                         cardBody: description
-                    }
 
+                        onEditCardClicked: {
+                            stackLayout.currentCardName = name
+                            stackLayout.currentCardDescription = description
+                            stackLayout.currentCardPriority = priority
+                            stackLayout.currentIndex = 3
+                        }
+                        onDeleteCardClicked: {
+                             usersModel.remove(index)
+                        }
+
+                    }
                 }
+
+
                 RoundButton {
                     id: roundButton
                     x: 474
@@ -130,16 +145,25 @@ Window {
             }
         }
 
+
    // View 2
         Item {
             View {
+                id: view2
                 titleText: b2.text
+
+                Card {
+                    cardTitle: stackLayout.currentCardName
+                    cardBody: stackLayout.currentCardDescription
+                    priority: stackLayout.currentCardPriority
+                }
             }
 
         }
         // View 3
         Item {
             View {
+                id: view3
                 titleText: b3.text
             }
         }
@@ -147,9 +171,10 @@ Window {
         // View 4
         Item {
             View {
+                id: view4
                 titleText: b4.text
             }
-        }
+        }   
     }
 }
 

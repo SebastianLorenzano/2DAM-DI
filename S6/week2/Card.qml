@@ -20,7 +20,9 @@ Rectangle {
     anchors.horizontalCenter: card.horizontalCenter
     color: "#d7d7d7";
     radius: 25
-    signal cardClicked()
+    signal editCardClicked(string name, string description, int priority)
+    signal deleteCardClicked()
+
 
 
     Column {
@@ -60,7 +62,7 @@ Rectangle {
                     layer.enabled: false
                     checkable: false
                     height: 23
-                    onClicked: cardClicked()
+                    onClicked: editCardClicked()
 
                     background: Rectangle {
                         width: 70
@@ -80,6 +82,7 @@ Rectangle {
                         border.color: black
                         border.width: 1
                     }
+                    onClicked: deleteCardClicked(cardTitle, cardBody, priority)
                 }
             }
         }
