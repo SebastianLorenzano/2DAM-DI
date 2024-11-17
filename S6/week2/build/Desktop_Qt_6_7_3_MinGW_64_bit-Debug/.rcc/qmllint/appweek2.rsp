@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Programming/dam/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.3/mingw_64/qml
+--resource
+C:/Programming/dam/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/qmake_week2.qrc
+--resource
+C:/Programming/dam/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/appweek2_raw_qml_0.qrc
+C:/Programming/dam/2DAM-DI/S6/week2/Main.qml
+C:/Programming/dam/2DAM-DI/S6/week2/MyButton.qml
+C:/Programming/dam/2DAM-DI/S6/week2/Card.qml
+C:/Programming/dam/2DAM-DI/S6/week2/View.qml
+C:/Programming/dam/2DAM-DI/S6/week2/MyElement.qml

@@ -1,0 +1,9 @@
+--resource
+C:/Programming/dam/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/qmake_week2.qrc
+--resource
+C:/Programming/dam/2DAM-DI/S6/week2/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/appweek2_raw_qml_0.qrc
+/qt/qml/week2/Main.qml
+/qt/qml/week2/MyButton.qml
+/qt/qml/week2/Card.qml
+/qt/qml/week2/View.qml
+/qt/qml/week2/MyElement.qml

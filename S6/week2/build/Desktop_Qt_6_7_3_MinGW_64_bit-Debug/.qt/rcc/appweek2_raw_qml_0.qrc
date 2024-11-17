@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/week2/">
+    <file alias="Main.qml">C:/Programming/dam/2DAM-DI/S6/week2/Main.qml</file>
+    <file alias="MyButton.qml">C:/Programming/dam/2DAM-DI/S6/week2/MyButton.qml</file>
+    <file alias="Card.qml">C:/Programming/dam/2DAM-DI/S6/week2/Card.qml</file>
+    <file alias="View.qml">C:/Programming/dam/2DAM-DI/S6/week2/View.qml</file>
+    <file alias="MyElement.qml">C:/Programming/dam/2DAM-DI/S6/week2/MyElement.qml</file>
+  </qresource>
+</RCC>
+
