@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "S4"
 include(":app")
+include(":app")
+ 
