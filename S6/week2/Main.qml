@@ -47,13 +47,24 @@ Window {
 
         MyButton {
             id: b1
-            onClicked: stackLayout.currentIndex = 1
+            onClicked: {
+                stackLayout.currentIndex = 1
+            }
+
         }
 
         MyButton {
             id: b2
             text: qsTr("Edición")
-            onClicked: stackLayout.currentIndex = 2
+            onClicked:
+            {
+                stackLayout.buttonEditionName = "Crear Tarea"
+                stackLayout.currentIndex = 2
+                stackLayout.currentCardName = ""
+                stackLayout.currentCardDescription = ""
+                stackLayout.currentCardPriority = 2
+                stackLayout.currentCardIndex = -1
+            }
         }
 
         MyButton {
@@ -71,6 +82,7 @@ Window {
 
     StackLayout {
         id: stackLayout
+        anchors.fill: parent
         anchors.verticalCenter: column.verticalCenter
         anchors.left: column.right
         anchors.right: column.left
@@ -87,6 +99,7 @@ Window {
         property string currentCardDescription: ""
         property int currentCardPriority: 0
         property int currentCardIndex: -1
+        property string buttonEditionName: "Crear Tarea"
 
         // View 0
         Item {
@@ -121,6 +134,7 @@ Window {
                         priority: priority
 
                         onEditCardClicked: {
+                            stackLayout.buttonEditionName = "Modificar Tarea"
                             stackLayout.currentCardName = cardTitle
                             stackLayout.currentCardDescription = cardBody
                             stackLayout.currentCardPriority = priority
@@ -183,33 +197,36 @@ Window {
                         spacing: 10
 
                         Button {
-                            text: "Modificar Tarea"
-                            onClicked: {
-                                if (stackLayout.currentCardIndex >= 0) {
-                                    usersModel.set(stackLayout.currentCardIndex, {
-                                        name: titleField.text,
-                                        description: bodyField.text,
-                                        priority: 1
-                                    })
-                                }
-                                stackLayout.currentCardName = ""
-                                stackLayout.currentCardDescription = ""
-                                stackLayout.currentCardPriority = 1
-                                stackLayout.currentCardIndex = -1
-                                stackLayout.currentIndex = 1
-                            }
-                        }
 
-                        Button {
-                            text: "Crear Tarea"
+                            text: stackLayout.buttonEditionName
                             onClicked: {
-                                if (titleField.text !== "" && bodyField.text !== "") {
-                                    usersModel.append({
-                                        name: titleField.text,
-                                        description: bodyField.text,
-                                        priority: 1
-                                    })
+                                if (stackLayout.buttonEditionName === "Modificar Tarea")
+                                {
+                                    if (stackLayout.currentCardIndex >= 0) {
+                                        usersModel.set(stackLayout.currentCardIndex, {
+                                            name: titleField.text,
+                                            description: bodyField.text,
+                                            priority: 1
+                                        })
+                                    }
+                                    stackLayout.currentCardName = ""
+                                    stackLayout.currentCardDescription = ""
+                                    stackLayout.currentCardPriority = 1
+                                    stackLayout.currentCardIndex = -1
+                                    stackLayout.currentIndex = 1
                                 }
+                                else
+                                {
+                                    if (titleField.text !== "" && bodyField.text !== "") {
+                                        usersModel.append({
+                                            name: titleField.text,
+                                            description: bodyField.text,
+                                            priority: 2
+                                        })
+                                    }
+                                }
+
+
                             }
                         }
                     }
@@ -232,8 +249,9 @@ Window {
                 id: view4
                 titleText: b4.text
             }
-        }   
+        }
     }
+
 }
 
 

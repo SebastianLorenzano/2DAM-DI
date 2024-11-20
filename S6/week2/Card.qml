@@ -87,6 +87,25 @@ Rectangle {
             }
         }
     }
+    states: [
+        State {
+            name: "State1"
+            when : priority === 1
+
+            PropertyChanges {
+                target: card
+                color: "#ed1b1b"
+            }
+        },
+        State {
+            name: "State2"
+            when : priority === 2
+            PropertyChanges {
+                target: card
+                color: "#212d86"
+            }
+        }
+    ]
 }
 
 

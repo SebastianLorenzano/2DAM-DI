@@ -27,12 +27,12 @@
 			"find_dependency",
 			"_qt_internal_find_qt_dependencies",
 			"add_dependencies",
-			"qt6_target_qml_sources",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
+			"qt6_target_qml_sources",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -105,13 +105,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 42,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 37,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -447,7 +447,48 @@
 				"parent" : 67
 			},
 			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 25,
+				"line" : 1,
+				"parent" : 69
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 774,
+				"parent" : 70
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 71
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 72
+			},
+			{
 				"command" : 14,
+				"file" : 5,
+				"line" : 3545,
+				"parent" : 73
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 3350,
+				"parent" : 74
+			},
+			{
+				"command" : 19,
 				"file" : 5,
 				"line" : 647,
 				"parent" : 15
@@ -456,47 +497,6 @@
 				"command" : 13,
 				"file" : 5,
 				"line" : 2751,
-				"parent" : 69
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 19,
-				"file" : 25,
-				"line" : 1,
-				"parent" : 71
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 774,
-				"parent" : 72
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 678,
-				"parent" : 73
-			},
-			{
-				"command" : 16,
-				"file" : 0,
-				"line" : 678,
-				"parent" : 74
-			},
-			{
-				"command" : 15,
-				"file" : 5,
-				"line" : 3545,
-				"parent" : 75
-			},
-			{
-				"command" : 13,
-				"file" : 5,
-				"line" : 3350,
 				"parent" : 76
 			},
 			{
@@ -569,13 +569,13 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 2535,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 28,
 				"file" : 5,
 				"line" : 2639,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
@@ -587,61 +587,61 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 2687,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2535,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2687,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2535,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2687,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2535,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2687,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2535,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 2687,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 27,
 				"file" : 5,
 				"line" : 2770,
-				"parent" : 69
+				"parent" : 76
 			},
 			{
 				"command" : 26,
@@ -665,7 +665,7 @@
 				"command" : 29,
 				"file" : 0,
 				"line" : 768,
-				"parent" : 72
+				"parent" : 70
 			},
 			{
 				"command" : 22,
@@ -1054,19 +1054,19 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 70,
-			"id" : "appintroductionQt_tooling::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 77,
+			"backtrace" : 75,
 			"id" : "appintroductionQt_qmlimportscan::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "appintroductionQt_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "appintroductionQt_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "appintroductionQt_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appintroductionQt_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appintroductionQt::@6890427a1f51a3e7e1df",
@@ -1365,14 +1365,14 @@
 		},
 		{
 			"backtrace" : 99,
-			"path" : "Text.qml",
+			"path" : "MyRectangle.qml",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 100,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Text_qml.cpp",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_MyRectangle_qml.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -1457,7 +1457,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_Text_qml.cpp.rule",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appintroductionQt_MyRectangle_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

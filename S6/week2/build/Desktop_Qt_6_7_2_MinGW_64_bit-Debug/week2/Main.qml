@@ -47,13 +47,24 @@ Window {
 
         MyButton {
             id: b1
-            onClicked: stackLayout.currentIndex = 1
+            onClicked: {
+                stackLayout.currentIndex = 1
+            }
+
         }
 
         MyButton {
             id: b2
             text: qsTr("Edición")
-            onClicked: stackLayout.currentIndex = 2
+            onClicked:
+            {
+                stackLayout.buttonEditionName = "Crear Tarea"
+                stackLayout.currentIndex = 2
+                stackLayout.currentCardName = ""
+                stackLayout.currentCardDescription = ""
+                stackLayout.currentCardPriority = 2
+                stackLayout.currentCardIndex = -1
+            }
         }
 
         MyButton {
@@ -71,6 +82,7 @@ Window {
 
     StackLayout {
         id: stackLayout
+        anchors.fill: parent
         anchors.verticalCenter: column.verticalCenter
         anchors.left: column.right
         anchors.right: column.left
@@ -86,6 +98,8 @@ Window {
         property string currentCardName: ""
         property string currentCardDescription: ""
         property int currentCardPriority: 0
+        property int currentCardIndex: -1
+        property string buttonEditionName: "Crear Tarea"
 
         // View 0
         Item {
@@ -117,12 +131,15 @@ Window {
                         Card {
                         cardTitle: name
                         cardBody: description
+                        priority: priority
 
                         onEditCardClicked: {
-                            stackLayout.currentCardName = name
-                            stackLayout.currentCardDescription = description
+                            stackLayout.buttonEditionName = "Modificar Tarea"
+                            stackLayout.currentCardName = cardTitle
+                            stackLayout.currentCardDescription = cardBody
                             stackLayout.currentCardPriority = priority
-                            stackLayout.currentIndex = 3
+                            stackLayout.currentCardIndex = index
+                            stackLayout.currentIndex = 2
                         }
                         onDeleteCardClicked: {
                              usersModel.remove(index)
@@ -152,14 +169,72 @@ Window {
                 id: view2
                 titleText: b2.text
 
-                Card {
-                    cardTitle: stackLayout.currentCardName
-                    cardBody: stackLayout.currentCardDescription
-                    priority: stackLayout.currentCardPriority
+                ColumnLayout {
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                    spacing: 20
+                    width: parent.width * 0.8
+                    height: parent.height * 0.6
+
+                    TextField {
+                        id: titleField
+                        Layout.fillWidth: true
+                        height: 40
+                        placeholderText: "Titulo de la tarea"
+                        text: stackLayout.currentCardName
+                    }
+
+                    TextField {
+                        id: bodyField
+                        Layout.fillWidth: true
+                        height: 40
+                        placeholderText: "Descripcion de la tarea"
+                        text: stackLayout.currentCardDescription
+                    }
+
+                    Row {
+                        anchors.horizontalCenter: parent.horizontalCenter // Align horizontally
+                        spacing: 10
+
+                        Button {
+
+                            text: stackLayout.buttonEditionName
+                            onClicked: {
+                                if (stackLayout.buttonEditionName === "Modificar Tarea")
+                                {
+                                    if (stackLayout.currentCardIndex >= 0) {
+                                        usersModel.set(stackLayout.currentCardIndex, {
+                                            name: titleField.text,
+                                            description: bodyField.text,
+                                            priority: 1
+                                        })
+                                    }
+                                    stackLayout.currentCardName = ""
+                                    stackLayout.currentCardDescription = ""
+                                    stackLayout.currentCardPriority = 1
+                                    stackLayout.currentCardIndex = -1
+                                    stackLayout.currentIndex = 1
+                                }
+                                else
+                                {
+                                    if (titleField.text !== "" && bodyField.text !== "") {
+                                        usersModel.append({
+                                            name: titleField.text,
+                                            description: bodyField.text,
+                                            priority: 2
+                                        })
+                                    }
+                                }
+
+
+                            }
+                        }
+                    }
                 }
             }
-
         }
+
+
         // View 3
         Item {
             View {
@@ -174,8 +249,9 @@ Window {
                 id: view4
                 titleText: b4.text
             }
-        }   
+        }
     }
+
 }
 
 
