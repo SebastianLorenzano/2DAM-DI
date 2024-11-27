@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/untitled/">
+    <file alias="Main.qml">C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/Main.qml</file>
+    <file alias="View.qml">C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/View.qml</file>
+    <file alias="Card.qml">C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/Card.qml</file>
+  </qresource>
+</RCC>
+

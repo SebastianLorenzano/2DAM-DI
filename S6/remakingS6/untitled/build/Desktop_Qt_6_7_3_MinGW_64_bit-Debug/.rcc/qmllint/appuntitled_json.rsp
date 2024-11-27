@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.3/mingw_64/qml
+--resource
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/qmake_untitled.qrc
+--resource
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/appuntitled_raw_qml_0.qrc
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/Main.qml
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/View.qml
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/Card.qml
+--json
+C:/Programming/dam/2DAM-DI/S6/remakingS6/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/appuntitled_qmllint.json
