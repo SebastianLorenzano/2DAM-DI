@@ -5,7 +5,7 @@ class MyTestScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Text("Flutter layout demo"),
@@ -43,10 +43,7 @@ class MyTestScreen extends StatelessWidget {
           ],
         ),
         Spacer(),
-        Text("Description of demo.Description of demo.Description of demo.Description of demo.\n" +
-            "Description of demo.Description of demo.Description of demo.Description of demo.\n" +
-            "Description of demo.Description of demo.Description of demo.Description of demo.\n" +
-            "Description of demo.Description of demo.Description of demo.Description of demo.",
+        Text("Description of demo.Description of demo.Description of demo.Description of demo.\nDescription of demo.Description of demo.Description of demo.Description of demo.\nDescription of demo.Description of demo.Description of demo.Description of demo.\nDescription of demo.Description of demo.Description of demo.Description of demo.",
             style: TextStyle(
               fontSize: 11,
             ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/myScreen.dart';
+import 'package:practica1/screens/MyLogin.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -32,11 +33,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: MyTestScreen(),
+        body: MyLogin(),
       ),
     );
-    
-  
   }
 }
 
