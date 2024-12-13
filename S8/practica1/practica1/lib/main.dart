@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:practica1/screens/MyLogin.dart';
+import 'package:practica1/screens/MyMovie.dart';
+import 'package:practica1/screens/MyMainMenu.dart';
+import 'components/MyCard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: MyLogin(),
+        body: MyMainMenu  (),
       ),
     );
   }

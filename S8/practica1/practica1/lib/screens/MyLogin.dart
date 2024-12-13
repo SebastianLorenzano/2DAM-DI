@@ -56,9 +56,8 @@ class MyLogin extends StatelessWidget {
                 backgroundColor: Colors.green, // Background color
                 foregroundColor: Colors.white, // Text color
               ),
-            
             ),
-                        ElevatedButton(
+            ElevatedButton(
               onPressed: onButtonPressed,
               child: Text("Registrarse"),
               style: ElevatedButton.styleFrom(
@@ -76,9 +75,6 @@ class MyLogin extends StatelessWidget {
     );
   }
 
-  void onButtonPressed() {
-
-  
-}
+  void onButtonPressed() {}
 }
 
