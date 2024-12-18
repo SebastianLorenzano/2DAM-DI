@@ -24,8 +24,10 @@ class MyMovie extends StatelessWidget {
 
           Container(
             width: double.infinity,
-            height: 300,
-            child: Placeholder()
+            height: 200,
+            decoration: BoxDecoration(
+              color: Colors.black,
+            ),
           ),
 
           SizedBox(
@@ -51,15 +53,16 @@ class MyMovie extends StatelessWidget {
                 Text(
                   "Aventura - 2023",
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 14,
                     color: Colors.grey,
                   ),
                 ),
-                
+                SizedBox(height: 5),
                 Text(
                   "Sinopsis",
                   style: TextStyle(
-                    fontWeight: FontWeight.bold
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
                   ),
                 ),
                 
@@ -69,8 +72,24 @@ class MyMovie extends StatelessWidget {
                   "de los drugos, que dan rienda suelta a sus instintos mas " +
                   "salvajes aterrorizando a la población",
                   style: TextStyle(
-                    fontSize: 15,
-                    color: const Color.fromARGB(255, 70, 69, 69),
+                    fontSize: 8,
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  "Director",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
+                  ),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  "Stanley Kubrick",
+                  style: TextStyle(
+                    fontSize: 8,
+                    color: Colors.grey,
                   ),
                 ),
               ],

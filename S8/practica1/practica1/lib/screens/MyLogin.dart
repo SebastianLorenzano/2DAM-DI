@@ -57,6 +57,7 @@ class MyLogin extends StatelessWidget {
                 foregroundColor: Colors.white, // Text color
               ),
             ),
+            SizedBox(width: 10),
             ElevatedButton(
               onPressed: onButtonPressed,
               child: Text("Registrarse"),

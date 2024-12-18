@@ -36,7 +36,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: MyMainMenu  (),
+        backgroundColor : Color.fromRGBO(238, 238, 238, 1),
+        body: MyMovie  (),
       ),
     );
   }
