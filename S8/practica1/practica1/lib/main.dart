@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Home"),
+          title: Text("BestMovies101"),
           backgroundColor: const Color.fromARGB(255, 248, 56, 56),
           leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back)),
         ),
