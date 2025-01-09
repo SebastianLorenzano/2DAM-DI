@@ -12,7 +12,7 @@ class MyMovie extends StatelessWidget {
           Container(
             height: 100,
             alignment: Alignment.center,
-            child: Text(
+            child: const Text(
               "Pelicula",
               style: TextStyle(
                 fontSize: 30,
@@ -25,17 +25,17 @@ class MyMovie extends StatelessWidget {
           Container(
             width: double.infinity,
             height: 200,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.black,
             ),
           ),
 
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
 
-          Padding(
-            padding: const EdgeInsets.all(30.0),
+          const Padding(
+            padding: EdgeInsets.all(30.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -67,10 +67,7 @@ class MyMovie extends StatelessWidget {
                 ),
                 
                 Text(
-                  "Alex es un joven muy agresivo que tiene dos pasiones: " +
-                  "la violencia desaforada y Beethoven. Es el jefe de la banda " +
-                  "de los drugos, que dan rienda suelta a sus instintos mas " +
-                  "salvajes aterrorizando a la población",
+                  "Alex es un joven muy agresivo que tiene dos pasiones: la violencia desaforada y Beethoven. Es el jefe de la banda de los drugos, que dan rienda suelta a sus instintos mas salvajes aterrorizando a la población",
                   style: TextStyle(
                     fontSize: 8,
                     color: Colors.grey,
@@ -96,16 +93,17 @@ class MyMovie extends StatelessWidget {
             ),
           ),
           Center(
-            child: Container(
+            child: SizedBox(
               width: 1200,
               child: ElevatedButton(
                 
-                child: Text("Ver Reparto"),
                 onPressed: onButtonPressed,
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.green, // Background color
                   foregroundColor: Colors.white, // Text color
                 ),
+                
+                child: Text("Ver Reparto"),
               ),
             ),
           ),

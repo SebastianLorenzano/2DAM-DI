@@ -12,7 +12,7 @@ class MyMainMenu extends StatelessWidget {
       Container(
         height: 100,
         alignment: Alignment.center,
-        child: Text(
+        child: const Text(
           "Catalogo",
           style: TextStyle(
             fontSize: 50,
@@ -26,33 +26,33 @@ class MyMainMenu extends StatelessWidget {
           hintText: "Buscar pelicula...",
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15),
-            borderSide: BorderSide(
+            borderSide: const BorderSide(
               width: 1.0,
               style: BorderStyle.solid,
             )
           )
         ),
       ),
-      SizedBox(height: 5,),
+      const SizedBox(height: 5,),
       Row(  
         children: [
           ElevatedButton(
             onPressed: (){},
-            child: Text("Acción"),
+            child: const Text("Acción"),
             ),
-          SizedBox(width: 5,),
+          const SizedBox(width: 5,),
           ElevatedButton(
             onPressed: (){},
-            child: Text("Aventuras"),
+            child: const Text("Aventuras"),
             ),
-          SizedBox(width: 5,),
+          const SizedBox(width: 5,),
           ElevatedButton(
             onPressed: (){},
-            child: Text("Terror"),
+            child: const Text("Terror"),
             )
         ]
       ),
-      SizedBox(height: 5,),
+      const SizedBox(height: 5,),
       Expanded(
         child: ListView(
           scrollDirection: Axis.vertical,
@@ -74,7 +74,7 @@ class MyMainMenu extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                child: Text(
+                child: const Text(
                   "Ciencia Ficción",
                   textAlign: TextAlign.left,
                   style: TextStyle(
@@ -89,7 +89,7 @@ class MyMainMenu extends StatelessWidget {
               height: 200,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                children: [
+                children: const [
                   MyCard(),
                   SizedBox(width: 20,),
                   MyCard(),

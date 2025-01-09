@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practica1/screens/MyLogin.dart';
-import 'package:practica1/screens/MyMovie.dart';
 import 'package:practica1/screens/MyMainMenu.dart';
-import 'components/MyCard.dart';
+import 'package:practica1/screens/MyMovie.dart';
+import 'package:practica1/screens/MyAddMovie.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,13 +34,47 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Scaffold(
-        backgroundColor : Color.fromRGBO(238, 238, 238, 1),
-        body: MyMovie  (),
-      ),
+      home: NavBar()
     );
   }
 }
+
+  class NavBar extends StatefulWidget {
+    const NavBar({super.key});
+  
+    @override
+    State<NavBar> createState() => _NavBarState();
+  }
+
+    class _NavBarState extends State<NavBar> {
+    int currentPageIndex = 0;
+    @override
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text("Home"),
+          backgroundColor: const Color.fromARGB(255, 248, 56, 56),
+          leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back)),
+        ),
+        bottomNavigationBar: NavigationBar(
+          onDestinationSelected: (int index){
+            setState(() {
+              currentPageIndex = index;
+            });
+          },
+          selectedIndex: currentPageIndex,
+          backgroundColor: const Color.fromARGB(255, 248, 56, 56),
+          destinations: 
+          [
+            NavigationDestination(icon: Icon(Icons.home), label: "Home"),
+            NavigationDestination(icon: Icon(Icons.add), label: "Añadir"),
+          ]
+          ),
+        body: [MyMainMenu(),MyAddMovie()][currentPageIndex]
+      );
+    }
+  }
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
