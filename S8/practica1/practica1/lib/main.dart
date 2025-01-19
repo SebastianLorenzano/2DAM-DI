@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:practica1/provider/movies_provider.dart';
 import 'package:practica1/screens/MyMainMenu.dart';
 import 'package:practica1/screens/MyMovie.dart';
 import 'package:practica1/screens/MyAddMovie.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+    runApp(
+      ChangeNotifierProvider(
+      create: (context) => MoviesProvider(),
+      child: const MyApp(),
+    )
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -48,6 +55,8 @@ class MyApp extends StatelessWidget {
 
     class _NavBarState extends State<NavBar> {
     int currentPageIndex = 0;
+    final List<String> tabs = ["Catálogo", "Añadir"];
+    String name = "Catálogo";
     @override
     Widget build(BuildContext context) {
       return Scaffold(
@@ -61,6 +70,7 @@ class MyApp extends StatelessWidget {
           onDestinationSelected: (int index){
             setState(() {
               currentPageIndex = index;
+              name = tabs[currentPageIndex];
             });
           },
           selectedIndex: currentPageIndex,
